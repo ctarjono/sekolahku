@@ -52,7 +52,108 @@
         </div>
         <!-- /.container-fluid -->
       </nav>
- </div> 
+<div role="tabpanel">
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#home1" data-toggle="tab" role="tab">About Us</a></li>
+    <li><a href="#paneTwo1" data-toggle="tab" role="tab">Vision & Mission</a></li>
+    <li class="dropdown"><a href="#" id="tabDropOne1" class="dropdown-toggle" data-toggle="dropdown" role="tab">Contact Us<b class="caret"></b></a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="tabDropOne1">
+        <li><a href="#tabDropDownOne1" tabindex="-1" data-toggle="tab">Feedback</a></li>
+        <li><a href="#tabDropDownTwo1" tabindex="-1" data-toggle="tab">Our Location</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div id="tabContent1" class="tab-content">
+    <div class="tab-pane fade in active" id="home1">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, totam assumenda alias est tenetur rerum minima eius sint! Alias, dolores neque natus distinctio hic corporis voluptatum sapiente quibusdam praesentium esse nobis perspiciatis illum. Sint, eos, deserunt deleniti dolorum quos alias distinctio illo quaerat rerum quae laudantium impedit ab. Voluptatibus, deserunt, hic explicabo asperiores illo a esse consequatur pariatur obcaecati voluptatem aspernatur animi nisi aut harum exercitationem dicta laborum. Alias perspiciatis aperiam laborum porro similique eligendi a possimus qui hic neque! Nostrum, velit deleniti neque nesciunt recusandae quas reprehenderit? Reiciendis nulla labore impedit ut voluptatibus natus illum! Velit delectus vel eligendi.</p>
+    </div>
+    <div class="tab-pane fade" id="paneTwo1">
+      <p class="vision"><strong>Our Vision</strong></p>
+      <p class="vision">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate numquam ipsam minus blanditiis iste molestias quod esse aperiam nostrum. Architecto, minus, maiores voluptate praesentium deserunt inventore ex veritatis earum! Repellendus, nisi, reiciendis voluptate enim eveniet soluta quod aperiam consequatur esse recusandae ullam odio vero perferendis fugit architecto provident ipsum.</p>
+      <p class="vision">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate numquam ipsam minus blanditiis iste molestias quod esse aperiam nostrum. Architecto, minus, maiores voluptate praesentium deserunt inventore ex veritatis earum! Repellendus, nisi, reiciendis voluptate enim eveniet soluta quod aperiam consequatur esse recusandae ullam odio vero perferendis fugit architecto provident ipsum.</p>
+      <p class="vision"><strong>Our Mission</strong></p>
+      <p class="vision">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, nihil voluptatibus quae nisi ipsam debitis labore eos facere voluptate optio beatae animi suscipit nemo. Aperiam, omnis, nihil, quam sit iste aspernatur eos laborum eius consectetur rem maxime explicabo laboriosam ipsam magnam numquam accusamus tempore tenetur? Provident, enim libero vero molestiae!</p>
+      <p class="vision">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, totam numquam temporibus dolorem saepe deleniti eum eaque iusto minus voluptate provident vero itaque eligendi quas voluptates soluta delectus ea quam sed necessitatibus! Eum, ullam, veniam recusandae necessitatibus sequi sint commodi nesciunt dicta voluptas minima a itaque dolores distinctio illo totam?</p>
+    </div>
+    <div class="tab-pane fade" id="tabDropDownOne1">
+      <form><table class="feedback-form">
+  <tbody>
+  	<tr>
+      <td><label class="label-mandatory">Title</label></td>
+      <td>
+      	<select name="title">
+        	<option value="--" selected>--</option>
+        	<option value="Mr.">Mr.</option>
+          	<option value="Mrs.">Mrs.</option>
+          	<option value="Miss">Miss</option>
+          	<option value="Ms.">Ms.</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label class="label-mandatory">Name</label></td>
+      <td><input name="CustName" type="text" id="CustName"></td>
+    </tr>
+    <tr>
+      <td><label>Phone</label></td>
+      <td><input name="CustPhone" type="tel" id="CustPhone"></td>
+    </tr>
+    <tr>
+      <td><label class="label-mandatory">Email Address</label></td>
+      <td><input name="CustEmail" type="email" id="CustEmail"></td>
+    </tr>
+    <tr>
+      <td><label>Address</label></td>
+      <td><input name="CustAddress1" type="text" id="CustAddress1"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input name="CustAddress2" type="text" id="CustAddress2"></td>
+    </tr>
+    <tr>
+      <td><label>City</label></td>
+      <td><input name="CustAddress2" type="text" id="CustCity"></td>
+    </tr>
+    <tr>
+      <td><label>State</label></td>
+      <td>
+      	<select name="CustState" id="CustState">
+      		<option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+            <option value="--" selected>--</option>
+        </select></td>
+    </tr>
+    <tr>
+      <td><label>ZIP/Postal Code</label></td>
+      <td><input name="CustPostCode" type="text" id="CustPostCode"></td>
+    </tr>
+    <tr>
+      <td><label class="label-mandatory">Feedback</label></td>
+      <td><textarea name="CustFeedback" id="CustFeedback"></textarea></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit"></td>
+    </tr>
+  </tbody>
+</table>
+      </form>
+    </div>
+    <div class="tab-pane fade" id="tabDropDownTwo1">
+      <p>Dropdown content#2 </p>
+    </div>
+  </div>
+</div>
+</div> 
+<div>
+</div>
  <footer>&copy; Copyright 2015</footer>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.2.min.js"></script>

@@ -36,3 +36,22 @@ footer {
 	right: 0px;
 	margin: 0px;
 }
+.vision {
+	text-align: left;
+}
+.feedback-form {
+	border-collapse: separate;
+	border-spacing: 50px 0;
+	border-bottom-width: thick;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.label-mandatory:after {
+	content:"*" ;
+    color:red
+}
+
+tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
